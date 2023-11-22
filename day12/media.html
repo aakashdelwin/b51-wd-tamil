@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        body{
+            font-size: 48px;
+        }
+         
+        @media(max-width:614px){
+            body{
+                font-size: 24px;
+            }
+        }
+        .navbar{
+            display: none;
+        }
+        @media(max-width:614px){
+            .navbar{
+                display:block;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="#">home</a>
+        <a href="#">service</a>
+        <a href="#">contact</a>
+        <a href="#">costomer</a>
+       </nav>
+   <p> this content changes from 48 px to 24 px in smaller units</p>
+       
+</body>
+</html>
